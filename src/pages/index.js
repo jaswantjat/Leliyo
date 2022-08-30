@@ -31,8 +31,8 @@ const IndexPage = () => {
         maxWidth={'500px'}
         image={'/banner1.png'}
         title={'You dont believe us? Ask Rohits MUM!'}
-        subtitle={'Discover Autumn Winter 2021'}
-        ctaText={'Lets FUCK'}
+        subtitle={'Teri Bhaind KI'}
+        ctaText={'SHOP NOW'}
         ctaAction={goToShop}
       />
 
@@ -59,7 +59,7 @@ const IndexPage = () => {
       {/* New Arrivals */}
       <div className={styles.newArrivalsContainer}>
         <Container>
-          <Title name={'New Arrivals'} link={'/shop'} textLink={'view all'} />
+          <Title name={'I am Rohit'} link={'/shop'} textLink={'view all'} />
           <ProductCardGrid
             spacing={true}
             showSlider
